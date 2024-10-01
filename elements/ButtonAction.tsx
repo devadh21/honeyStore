@@ -4,14 +4,14 @@ interface buttonProps {
   label?: string;
   title?: string;
   className?: string;
-  children?: any;
+  childrenn?: any;
 }
-const ButtonAction: React.FC<buttonProps> = ({ onClick,label, title, className,children }) => {
+const ButtonAction: React.FC<buttonProps> = ({ onClick,label, title, className,childrenn }) => {
   //onClick={e=>{onClick && onClick(true)}
   return (
     <button title={title} className={`style_btn ${className}`} onClick={e=>{onClick && onClick(true)}}>      
         {label}
-        {children}
+        {childrenn}
     </button>
   );
 };
