@@ -78,7 +78,7 @@ function OrderProductSection() {
 
       return totalPrice.toFixed(2);
     } else {
-      const totalPrice = quantity * parseInt(product!.half_kg);
+      const totalPrice = quantity * 2 //parseInt(product!.half_kg);
 
       // set  total Price to OrderSummaryData
       OrderSummaryData.total_price = totalPrice;
