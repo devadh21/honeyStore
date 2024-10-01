@@ -112,7 +112,7 @@ function OrderSummary({
           />
           <span>or</span>
           <ButtonAction
-            children={<div  className="w-5 ">{addToCartSVG}</div>}
+            childrenn={<div  className="w-5 ">{addToCartSVG}</div>}
             onClick={handleAddToCart}
             className="!w-full flex justify-center !bg-secondary5 hover:!bg-secondary  " 
             title="Add To Cart"            
