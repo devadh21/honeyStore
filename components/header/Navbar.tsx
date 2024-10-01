@@ -61,15 +61,12 @@ export default function Navbar() {
                 const actived = routeActive === `${item.href}` ? "border-b-2 border-b-secondary2 " : "";
                 
                 return (
-                  <div className="" onClick={e=>setRouteActive(item.href)}>
-                   <div key={item.id}>
+                  <div key={item.id} className="" onClick={e=>setRouteActive(item.href)}>
                       <ButtonLink
                         bt_href={item.href}
                         label={item.label}
                         className={` transition-all duration-300 !bg-transparent  border-b-2 border-b-transparent hover:border-b-2  hover:border-b-secondary2 !text-secondary2 ${actived}`}
-                      />
-                    </div>
-                    
+                      />                    
                   </div>
                 );
               })
@@ -149,16 +146,15 @@ export default function Navbar() {
               // const active = path === `${item.href}` ? "!bg-secondary2" : "";
               return (
                 <div
+                  key={item.id}
                   className=" flex flex-col justify-between gap-1"
                   onClick={handleCloseMenu}
                 >
-                  <div key={item.id}>
                     <ButtonLink
                       bt_href={item.href}
                       label={item.label}
                       className="!w-full"
                     />
-                  </div>
                 </div>
               );
             })
