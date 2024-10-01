@@ -163,11 +163,13 @@ export default function Navbar() {
             })
           }
           {/* <ButtonLink bt_href="/" label="Home" className="!w-full" />
-          <ButtonLink
-            bt_href="/#products"
-            label="Products"
-            className="  !w-full"
-          />
+                  <div key={item.id}>
+                    <ButtonLink
+                      bt_href={item.href}
+                      label={item.label}
+                      className="!w-full"
+                    />
+                  </div>
           <ButtonLink
             bt_href="/#about_us"
             label="About Us"
