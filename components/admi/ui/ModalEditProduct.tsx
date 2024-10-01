@@ -6,6 +6,7 @@ import { IProduct } from "@/typings/interfaces";
 import cloudinaryUploadAction from "@/serverActions/cloudinaryUploadAction";
 import cloudinary from "@/cloudinaryconfig";
 import ButtonAction from "@/components/admi/ui/ButtonAction";
+import React from "react";
 
 export default function ModalEditProduct({
   pdt,
