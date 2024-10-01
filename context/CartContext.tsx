@@ -1,7 +1,7 @@
 import { createContext, useEffect, useState } from "react";
 import { IProduct } from "@/typings/interfaces";
 
-const CartContext = createContext();
+const CartContext = createContext({});
 
 export const CartProvider = ({ children }: any) => {
   const [cartItems, setCartItems] = useState<any>([]);
