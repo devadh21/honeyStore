@@ -58,7 +58,7 @@ const ProductCard: React.FC<CardProps> = ({
       <div className="my-4 px-4 flex justify-center items-center gap-2 w-full">
         <ButtonLink bt_href={card_href} label="Order Now " className="m-2 !w-full flex justify-center  " />
         <ButtonAction
-          children={<div className="w-5 ">{addToCartSVG}</div>}
+          childrenn={<div className="w-5 ">{addToCartSVG}</div>}
           onClick={handleAddToCart}
           className=" !w-full flex justify-center !bg-secondary5 hover:!bg-secondary "
           title="Add To Cart"
