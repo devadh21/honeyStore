@@ -63,7 +63,7 @@ export default function Navbar() {
                 return (
                   <div className="" onClick={e=>setRouteActive(item.href)}>
                     <ButtonLink
-                      key={index}
+                      key={item.id}
                       bt_href={item.href}
                       label={item.label}
                       className={` transition-all duration-300 !bg-transparent  border-b-2 border-b-transparent hover:border-b-2  hover:border-b-secondary2 !text-secondary2 ${actived}` }
@@ -151,7 +151,7 @@ export default function Navbar() {
                   onClick={handleCloseMenu}
                 >
                   <ButtonLink
-                    key={index}
+                    key={item.id}
                     bt_href={item.href}
                     label={item.label}
                     className="!w-full"
