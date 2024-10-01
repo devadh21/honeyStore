@@ -152,12 +152,13 @@ export default function Navbar() {
                   className=" flex flex-col justify-between gap-1"
                   onClick={handleCloseMenu}
                 >
-                  <ButtonLink
-                    key={item.id}
-                    bt_href={item.href}
-                    label={item.label}
-                    className="!w-full"
-                  />
+                  <div key={item.id}>
+                    <ButtonLink
+                      bt_href={item.href}
+                      label={item.label}
+                      className="!w-full"
+                    />
+                  </div>
                 </div>
               );
             })
