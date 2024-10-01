@@ -69,7 +69,7 @@ export default function Navbar() {
                         className={` transition-all duration-300 !bg-transparent  border-b-2 border-b-transparent hover:border-b-2  hover:border-b-secondary2 !text-secondary2 ${actived}`}
                       />
                     </div>
-                    >
+                    
                   </div>
                 );
               })
