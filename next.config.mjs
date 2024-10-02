@@ -4,9 +4,7 @@ const nextConfig = {
         domains: [ 'res.cloudinary.com','images.unsplash.com', 'via.placeholder.com' ],
 
       },
-    eslint:{
-        ignoreDuringBuilds: true,
-    },
+
 
     // resolve error with cloudinary  
     webpack: (config) => {
