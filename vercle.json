@@ -1,4 +1,4 @@
 { 
-  "routes": [{ "source": "/(.*)", "destination": "/" }],
+  "routes": [{ "source": "/(.*)", "destination": "/app" }],
   "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }
