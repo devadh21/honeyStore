@@ -1,7 +1,7 @@
 { 
     "framework": "nextjs",
-    "rewrites": [{ "source": "/(.*)", "destination": "/app" }],
-    "routes": [{ "source": "/(.*)", "destination": "/app" }]
+    "rewrites": [{ "source": "/(.*)", "destination": "/" }],
+    
     
 }
 
