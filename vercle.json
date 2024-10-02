@@ -1,7 +1,0 @@
-{ 
-    "framework": "nextjs",
-    "rewrites": [{ "source": "/(.*)", "destination": "/" }],
-    
-    
-}
-
